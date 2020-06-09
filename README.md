@@ -1,4 +1,4 @@
 
-# web folks web site
-## created with html - css - * not responsive *
+# Web Folks Website
+## created with HTML-Css
 ### https://magdykashef.github.io/web-folks

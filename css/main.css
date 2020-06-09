@@ -1,50 +1,58 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: monospace;
     height: auto;
 }
+
 /*ul,li reset*/
-ul,li {
+ul,
+li {
     margin: 0px;
     padding: 0px;
     list-style: none;
 }
+
 /*start navbar*/
- nav {
+nav {
     background-color: #360836;
     width: 100%;
     height: 50px;
 }
- nav ul{
+
+nav ul {
     text-align: center;
     line-height: 50px;
 }
 
- nav ul li{
+nav ul li {
     display: inline-block;
 }
- nav ul li a{
+
+nav ul li a {
     font-size: 20px;
-    color:#ff0048;
+    color: #ff0048;
     text-decoration: none;
     margin-left: 10px;
 }
- nav ul li a.active,
- nav ul li a:hover
-{
+
+nav ul li a.active,
+nav ul li a:hover {
     color: white;
 }
+
 /*end navbar*/
 /*start content*/
-.content{
+.content {
     width: 100%;
     height: 600px;
     background: url(../images/cover.png);
     background-size: cover;
     text-align: center;
     position: relative;
+    padding-bottom: 0;
 }
+
 .content .folk {
     width: 100%;
     color: white;
@@ -53,7 +61,8 @@ ul,li {
     margin-bottom: 0px;
     padding-top: 100px;
 }
- .content .folk h2{
+
+.content .folk h2 {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -62,182 +71,236 @@ ul,li {
     letter-spacing: 10px;
     margin-top: 0px;
 }
-.content .dream p{
+
+.content .dream p {
     margin-top: 130px;
     color: white;
     font-size: 30px;
     font-weight: bold;
 }
 
-.content .work{
+.content .work {
     font-size: 20px;
-    color:white;
+    color: white;
     font-weight: bold;
-    position: absolute;
-    bottom: 0px;
-    left: 555px;
+    text-align: center;
     background-color: #ff0048;
-    padding: 20px;
-    width: 200px;
+    padding: 1px;
+    width: 20%;
+    margin: 0 auto ;
 }
+
 .content .work:after {
-    content:"";
-    border-top:20px solid #ff0048;
-    border-right:20px solid transparent;
-    border-left:20px solid transparent;
-    position: absolute;
-    top:60px;
-    right:100px;   
+    content: "";
+    border-top: 20px solid #ff0048;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: relative;
+    top: 40px;
+
+ 
 }
+
 /*end content*/
 /*start images*/
 .images {
     width: 100%;
-    
+    margin-top: 0;
 }
+
 .images .img {
     width: 25%;
     height: 252px;
     float: left;
     background: url(../images/image_1.jpg);
 }
-.images .i_1 { background: url(../images/image_2.jpg)}
-.images .i_2 { background: url(../images/image_3.jpg)}
-.images .i_3 { background: url(../images/image_4.jpg)}
-.images .i_4 { background: url(../images/image_5.jpg)}
-.images .i_5 { background: url(../images/image_6.jpg)}
-.images .i_6 { background: url(../images/image_7.jpg)}
-.images .i_7 { background: url(../images/image_8.jpg)}
-.images .i_8 { background: url(../images/image_9.jpg)}
-.images .i_9 { background: url(../images/image_10.jpg)}
-.images .i_10 { background: url(../images/image_11.jpg)}
-.images .i_11 { background: url(../images/image_12.jpg)}
 
-.images .img .over{
-    background: rgba(0,0,0,0.5);
+.images .i_1 {
+    background: url(../images/image_2.jpg)
+}
+
+.images .i_2 {
+    background: url(../images/image_3.jpg)
+}
+
+.images .i_3 {
+    background: url(../images/image_4.jpg)
+}
+
+.images .i_4 {
+    background: url(../images/image_5.jpg)
+}
+
+.images .i_5 {
+    background: url(../images/image_6.jpg)
+}
+
+.images .i_6 {
+    background: url(../images/image_7.jpg)
+}
+
+.images .i_7 {
+    background: url(../images/image_8.jpg)
+}
+
+.images .i_8 {
+    background: url(../images/image_9.jpg)
+}
+
+.images .i_9 {
+    background: url(../images/image_10.jpg)
+}
+
+.images .i_10 {
+    background: url(../images/image_11.jpg)
+}
+
+.images .i_11 {
+    background: url(../images/image_12.jpg)
+}
+
+.images .img .over {
+    background: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100%;
     opacity: 0;
 }
-.images .img:hover .over{
+
+.images .img:hover .over {
     opacity: 1;
 }
+
 /*end images*/
-.clear{
+.clear {
     clear: both;
 }
+
 /*start meet*/
-.meet{
-    position: relative;
+.meet {
     width: 100%;
     height: auto;
     padding-bottom: 20px;
     text-align: center;
     background: #f5f5f5
 }
+
 .meet .head {
     width: 100%;
     height: 50px;
     background: #ff0048;
-    position: absolute;
-    top:0;
-    
+    top: 0;
+
 }
-.meet .head h5{
+
+.meet .head h5 {
     color: white;
     text-align: center;
-    line-height: 50%;
+    line-height: 50px;
+    margin: 0 auto;
 }
+
 .meet .head:after {
-    content:"";
-    border-top:20px solid #ff0048;
-    border-right:20px solid transparent;
-    border-left:20px solid transparent;
-    position: absolute;
-    top:50px;
-    right:655px;   
+    content: "";
+    border-top: 20px solid #ff0048;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: relative;
+    top: 20px;
 }
-.meet h2{
-    margin: 0 ;
+
+.meet h2 {
+    margin: 0;
     padding-top: 100px;
-    color:#ff0048;
+    color: #ff0048;
     letter-spacing: 5px;
 }
-.meet .meet_img{
+
+.meet .meet_img {
     display: inline-block;
     margin-top: 100px;
 }
-.meet .meet_img h3{
-    color:#ff0048;
-    font-size:30px;
+
+.meet .meet_img h3 {
+    color: #ff0048;
+    font-size: 30px;
     letter-spacing: 5px;
     margin-bottom: 0;
 }
-.meet .meet_img p{
-    color:black;
-    font-size:20px;
-    margin: 0 auto;   
+
+.meet .meet_img p {
+    color: black;
+    font-size: 20px;
+    margin: 0 auto;
 }
-.meet button{
-    background:black;
-    border:0;
-    margin-top:50px; 
-    width:150px;
+
+.meet button {
+    background: black;
+    border: 0;
+    margin-top: 50px;
+    width: 150px;
     color: white;
-    padding:10px;
+    padding: 10px;
     cursor: pointer;
 }
+
 /*end meet*/
 /*start the last part of the page*/
-.end{
-    width:100%;
-    background:url(../images/Cover_2.jpg);
+.end {
+    width: 100%;
+    background: url(../images/Cover_2.jpg);
     height: auto;
-    color:white; 
+    color: white;
     text-align: center;
     padding-top: 7%;
     font-size: 25px;
     letter-spacing: 5px;
 }
+
 .end .content2 {
     width: 500px;
     padding: 20px;
-    display:inline-block;
+    display: inline-block;
     margin-bottom: 10%;
 }
-.end .content2 h3{
+
+.end .content2 h3 {
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
- .button{
-    background:white;
-    border:0; 
+.button {
+    background: white;
+    border: 0;
     margin-bottom: 50px;
-    width:250px;
+    width: 250px;
     color: black;
-    padding:15px;
+    padding: 15px;
     cursor: pointer;
- }
-.button a{
+}
+
+.button a {
     font-size: 15px;
     font-weight: bolder;
     letter-spacing: 5px;
 }
+
 .end .bol {
     text-align: center;
     margin-top: 10%
 }
+
 .end .bol span {
-    width:10px;
+    width: 10px;
     height: 10px;
     display: inline-block;
     background: #fff;
     margin-bottom: 20px;
 }
+
 .end .bol span:hover {
     background: #ff0048;
 }
+
 /*end the last part of the page*/
 /*start the footer part*/
 .footer {
@@ -250,55 +313,65 @@ ul,li {
     font-size: 15px;
     font-weight: bold;
 }
+
 /*end the footer part*/
 /**********************************contact.html*********************************/
-.contact{
+.contact {
     width: 100%;
     height: 600px;
     background: url(../images/coverPage2.png);
     background-size: cover;
     text-align: center;
-    padding-top:5%;
+    padding-top: 5%;
 }
-.contact h1{
-    margin:0;
-    font-style:italic;
+
+.contact h1 {
+    margin: 0;
+    font-style: italic;
     font-size: 40px;
 }
-.contact p{
+
+.contact p {
     font-size: 25px;
 }
+
 .contact .form {
-    
-    width:500px;
+
+    width: 500px;
     height: 300px;
-    margin:auto;
+    margin: auto;
 }
-.contact .form h1{
+
+.contact .form h1 {
     color: #df1a5a;
 }
-.contact .form form input[type=text],textarea{
+
+.contact .form form input[type=text],
+textarea {
     display: block;
     width: 100%;
-    border:0;
+    border: 0;
     margin-bottom: 10px;
     height: 30px;
-    background:#df1a5a;
+    background: #df1a5a;
     padding-left: 10px;
     color: white;
 }
-textarea{
+
+textarea {
     height: 200px;
 }
-.contact .form form input[type=submit]{
+
+.contact .form form input[type=submit] {
     float: right;
-    border:0;
+    border: 0;
     background: white;
     padding: 10px;
     cursor: pointer;
 }
+
 /*become*/
-.become{
+.become {
     text-align: center;
     width: 100%;
     height: 400px;
@@ -306,97 +379,49 @@ textarea{
     padding-top: 3%;
 
 }
-.become h1,h2{
+
+.become h1,
+h2 {
     margin: 0;
-    color:#df1a5a;
+    color: #df1a5a;
     font-size: 40px;
 }
+
 /*end contact.html*/
 
 /*********************************start bookOnline.html*******************************/
-.contact .cover{
-    width:900px;
+.contact .cover {
+    width: 900px;
     height: 450px;
     background: white;
     margin: auto;
     padding-top: 5%;
 }
-.contact .cover .left{
-    width:45%;
+
+.contact .cover .left {
+    width: 45%;
     float: left;
     margin-left: 5%;
     height: auto;
 }
-.contact .cover .left img{
-    width:100%;
+
+.contact .cover .left img {
+    width: 100%;
 }
-.contact .cover .right{
+
+.contact .cover .right {
     height: 258px;
-    width:45%;
+    width: 45%;
     float: right;
-    margin-right:5%;
-    background:#eee;
+    margin-right: 5%;
+    background: #eee;
     padding-top: 5%;
 }
-.contact .cover .right button{
-    background:black;
-    color:white;
-    padding:10px;
-    border:0;
+
+.contact .cover .right button {
+    background: black;
+    color: white;
+    padding: 10px;
+    border: 0;
     cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
