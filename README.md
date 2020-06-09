@@ -1,4 +1,4 @@
 
 # Web Folks Website
-## created with HTML-Css
+## created with HTML-CSS
 ### https://magdykashef.github.io/web-folks
